@@ -5,7 +5,7 @@
 ## Install
 
 ``` bash
-$ go get -u -v github.com/go-oauth2/redis/v4
+$ go get -u -v github.com/Inasayang/redis/v4
 ```
 
 ## Usage
@@ -14,8 +14,8 @@ $ go get -u -v github.com/go-oauth2/redis/v4
 package main
 
 import (
-	"github.com/go-redis/redis/v8"
-	oredis "github.com/go-oauth2/redis/v4"
+	"github.com/redis/go-redis/v9"
+	oredis "github.com/Inasayang/redis/v4"
 	"github.com/go-oauth2/oauth2/v4/manage"
 )
 

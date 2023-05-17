@@ -2,11 +2,11 @@ package redis
 
 import (
 	"context"
+	"github.com/redis/go-redis/v9"
 	"testing"
 	"time"
 
 	"github.com/go-oauth2/oauth2/v4/models"
-	"github.com/go-redis/redis/v8"
 
 	. "github.com/smartystreets/goconvey/convey"
 )
